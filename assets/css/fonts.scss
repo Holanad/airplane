@@ -64,3 +64,13 @@
 	font-weight: 500;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Roboto Bold';
+	src: url("../fonts/Roboto-Bold.eot");
+	src: local("Roboto Bold"), local("Roboto-Bold"), 
+    url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/Roboto-Bold.woff") format("woff"), 
+    url("../fonts/Roboto-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}

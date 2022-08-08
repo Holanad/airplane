@@ -704,6 +704,9 @@
   .about-block__title {
     font-size: 18px;
   }
+  .service-image {
+    height: 150px;
+  }
   .descr-single .descr-block {
     margin-top: 30px;
   }
@@ -715,6 +718,7 @@
   }
   .footer-single {
     background: url("../img/main/background-footer.jpg") no-repeat center/cover;
+    padding-top: 30px;
   }
   .footer-single::after {
     content: "";
@@ -735,6 +739,9 @@
     font-size: 15px;
   }
   .information-item p {
+    font-size: 15px;
+  }
+  .information-item ul li {
     font-size: 15px;
   }
   .information-item blockquote p {

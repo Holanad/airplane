@@ -35,6 +35,7 @@ $(window).resize(function() {
         widthDescrImage();
         widthAboutImage();
         widthServiceImage();
+        heightAdvantageBackground();
     }
     if($(window).innerWidth() > 1240) {
         widthAdvantageBackground();
@@ -46,8 +47,11 @@ if($(window).innerWidth() > 992) {
     widthIntroImage();
     widthDescrImage();
     widthAboutImage();
-    heightAdvantageBackground();
+   
     widthServiceImage();
+    setTimeout(() => {
+        heightAdvantageBackground();
+    }, 100);
 }
 if($(window).innerWidth() > 1240) {
     widthAdvantageBackground();
@@ -103,7 +107,6 @@ function widthAdvantageBackground () {
 function heightAdvantageBackground () {
     let height = $('.about').height() - 141 + 'px';
     $('.about').css({"height": height});
-    console.log($('.about').height() - 141 + 'px');
 }
 
 

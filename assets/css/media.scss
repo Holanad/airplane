@@ -817,6 +817,11 @@
             }
         }
     }
+    .service {
+        &-image {
+            height: 150px;
+        }
+    }
     .descr-single {
         .descr-block {
             margin-top: 30px;
@@ -834,6 +839,7 @@
     }
     .footer-single {
         background: url('../img/main/background-footer.jpg') no-repeat center/cover;
+        padding-top: 30px;
         &::after {
             content: '';
             opacity: 0.8;
@@ -856,6 +862,9 @@
                 font-size: 15px;
             }
             p {
+                font-size: 15px;
+            }
+            ul li {
                 font-size: 15px;
             }
             blockquote  {
