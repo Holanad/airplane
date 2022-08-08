@@ -1313,13 +1313,13 @@ input::placeholder, textarea::placeholder {
         line-height: 37px;
         color: #FF900D;
         width: 564px;
+        margin-bottom: 3px;
     }
     &__descr {
-        font-size: 13px;
+        font-size: 15px;
         line-height: 18px;
         color: #9C9C9C;
         width: 564px;
-        margin-top: 3px;
         margin-right: 23px;
     }
     &-list {
@@ -1353,10 +1353,12 @@ input::placeholder, textarea::placeholder {
     &-item {
         position: relative;
         z-index: 1;
+        cursor: pointer;
         &:not(:last-child) {
             margin-bottom: 18px;
         }
         &__title {
+            
             font-family: 'Montserrat SemiBold';
             font-size: 24px;
             line-height: 29px;

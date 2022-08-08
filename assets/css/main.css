@@ -1586,13 +1586,13 @@ input::placeholder, textarea::placeholder {
   line-height: 37px;
   color: #FF900D;
   width: 564px;
+  margin-bottom: 3px;
 }
 .service__descr {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 18px;
   color: #9C9C9C;
   width: 564px;
-  margin-top: 3px;
   margin-right: 23px;
 }
 .service-list {
@@ -1626,6 +1626,7 @@ input::placeholder, textarea::placeholder {
 .service-item {
   position: relative;
   z-index: 1;
+  cursor: pointer;
 }
 .service-item:not(:last-child) {
   margin-bottom: 18px;
