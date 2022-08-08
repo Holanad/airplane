@@ -1681,6 +1681,9 @@ input::placeholder, textarea::placeholder {
 .footer-single {
   background: #262626;
 }
+.footer-single .footer-wrapper {
+  padding: 30px 0 30px 0;
+}
 .footer-single::before {
   display: none;
 }
