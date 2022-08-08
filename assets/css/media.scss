@@ -301,7 +301,7 @@
     .intro {
         box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.78);
         //height: calc(100 * var(--vh));
-        min-height: 100vh;
+        min-height: calc(100vh - 114px);
         height: -webkit-fill-available;
         
         .container {
