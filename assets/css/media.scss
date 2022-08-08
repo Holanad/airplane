@@ -304,7 +304,7 @@
         //min-height: calc(100vh - 114px);
         //min-height: -webkit-fill-available;
         height: 100vh; /* фолбэк для браузеров, которые не поддерживают пользовательские свойства */
-        height: calc(var(--vh, 1vh) * 100 - 114);
+        height: calc((var(--vh, 1vh) * 100) - 114px);
         
         .container {
             height: 100%;
@@ -950,7 +950,7 @@
         /*min-height: calc(100vh - 85px);
         min-height: -webkit-fill-available;*/
         height: 100vh; /* фолбэк для браузеров, которые не поддерживают пользовательские свойства */
-        height: calc(var(--vh, 1vh) * 100 - 85);
+        height: calc((var(--vh, 1vh) * 100) - 85px);
         &__title {
             font-size: 24px;
         }

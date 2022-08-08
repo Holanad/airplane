@@ -297,7 +297,7 @@
             box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.78);
     height: 100vh;
     /* фолбэк для браузеров, которые не поддерживают пользовательские свойства */
-    height: calc(var(--vh, 1vh) * 100 - 114);
+    height: calc((var(--vh, 1vh) * 100) - 114px);
   }
   .intro .container {
     height: 100%;
@@ -922,7 +922,7 @@
         min-height: -webkit-fill-available;*/
     height: 100vh;
     /* фолбэк для браузеров, которые не поддерживают пользовательские свойства */
-    height: calc(var(--vh, 1vh) * 100 - 85);
+    height: calc((var(--vh, 1vh) * 100) - 85px);
   }
   .intro__title {
     font-size: 24px;
