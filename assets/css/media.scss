@@ -295,14 +295,14 @@
             display: block;
         }
     }
-    html {
+    /*html {
         height: -webkit-fill-available;
-    }
+    }*/
     .intro {
         box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.78);
         //height: calc(100 * var(--vh));
-        min-height: calc(100vh - 114px);
-        min-height: -webkit-fill-available;
+        //min-height: calc(100vh - 114px);
+        //min-height: -webkit-fill-available;
         
         .container {
             height: 100%;
@@ -945,8 +945,8 @@
         }
     }
     .intro {
-        min-height: calc(100vh - 85px);
-        min-height: -webkit-fill-available;
+        /*min-height: calc(100vh - 85px);
+        min-height: -webkit-fill-available;*/
         &__title {
             font-size: 24px;
         }
