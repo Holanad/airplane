@@ -1626,13 +1626,6 @@ input::placeholder, textarea::placeholder {
 .service-item {
   position: relative;
   z-index: 1;
-  cursor: default;
-}
-.service-item:hover .service-item__title {
-  color: #FF900D;
-}
-.service-item:hover .service-item__title::before {
-  opacity: 1;
 }
 .service-item:not(:last-child) {
   margin-bottom: 18px;
@@ -1642,8 +1635,8 @@ input::placeholder, textarea::placeholder {
   font-size: 24px;
   line-height: 29px;
   margin-bottom: 3px;
-  transition: all ease-in 0.2s;
   position: relative;
+  transition: all ease-in 0.2s;
 }
 .service-item__title::before {
   transition: all ease-in 0.2s;
@@ -1661,6 +1654,12 @@ input::placeholder, textarea::placeholder {
 .service-item__descr {
   font-size: 15px;
   line-height: 18px;
+}
+.service-item-active .service-item__title {
+  color: #FF900D;
+}
+.service-item-active .service-item__title::before {
+  opacity: 1;
 }
 .service-image {
   position: absolute;

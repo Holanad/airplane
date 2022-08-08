@@ -1353,15 +1353,6 @@ input::placeholder, textarea::placeholder {
     &-item {
         position: relative;
         z-index: 1;
-        cursor: default;
-        &:hover {
-            .service-item__title {
-                color: #FF900D;
-                &::before {
-                    opacity: 1;
-                }
-            }
-        }
         &:not(:last-child) {
             margin-bottom: 18px;
         }
@@ -1370,8 +1361,8 @@ input::placeholder, textarea::placeholder {
             font-size: 24px;
             line-height: 29px;
             margin-bottom: 3px;
-            transition: all ease-in .2s;
             position: relative;
+            transition: all ease-in .2s;
             &::before {
                 transition: all ease-in .2s;
                 content: '';
@@ -1389,6 +1380,15 @@ input::placeholder, textarea::placeholder {
         &__descr {
             font-size: 15px;
             line-height: 18px;
+        }
+        &-active {
+            .service-item__title {
+                color: #FF900D;
+                &::before {
+                    opacity: 1;
+                } 
+            }
+
         }
     }
     &-image {

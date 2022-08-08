@@ -134,6 +134,13 @@ function widthServiceImage () {
 
 // jQuery function
 $(document).ready(function() {
+    function hoverService() {
+        $('.service-item').hover(function() {
+            $('.service-item').removeClass('service-item-active')
+            $(this).addClass('service-item-active');
+        })
+    }
+    hoverService()
     // navPosition RECALL
     function navPosition() {
         if ($('.portfolio-wrapper').length) {
