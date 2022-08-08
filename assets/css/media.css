@@ -906,6 +906,7 @@
   }
   .intro {
     min-height: calc(100vh - 85px);
+    min-height: -webkit-fill-available;
   }
   .intro__title {
     font-size: 24px;
