@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media screen and (max-width: 1500px) {
   .service-points {
     display: none;
@@ -294,6 +295,9 @@
   .intro {
     -webkit-box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.78);
             box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.78);
+    height: 100vh;
+    /* фолбэк для браузеров, которые не поддерживают пользовательские свойства */
+    height: calc(var(--vh, 1vh) * 100);
   }
   .intro .container {
     height: 100%;
@@ -916,6 +920,9 @@
   .intro {
     /*min-height: calc(100vh - 85px);
         min-height: -webkit-fill-available;*/
+    height: 100vh;
+    /* фолбэк для браузеров, которые не поддерживают пользовательские свойства */
+    height: calc(var(--vh, 1vh) * 100);
   }
   .intro__title {
     font-size: 24px;

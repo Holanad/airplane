@@ -1,13 +1,9 @@
 
-/*let vh = window.innerHeight * 0.01;
+let vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 window.addEventListener('resize', () => {
     document.documentElement.style.setProperty('--vh', `${vh}px`);
-})*/
-/*window.addEventListener('resize', () => { 
-    document.querySelector(':root').style
-      .setProperty('--vh', window.innerHeight/100 + 'px');
-  })*/
+})
 
 // Swiper slider RECALL
 const swiperStocks = new Swiper(".portfolio-slider", {
@@ -40,7 +36,7 @@ const swiperStocks = new Swiper(".portfolio-slider", {
     }
 });
 
-function heightMainWindow() {
+/*function heightMainWindow() {
     let headerHeight = $('.header').height()
     let heightWindow = $(window).height();
     let res = heightWindow - headerHeight
@@ -49,14 +45,14 @@ function heightMainWindow() {
 
 if($(window).innerWidth() < 992) {
     heightMainWindow();
-}
+}*/
 
 $(window).resize(function() {
     widthAdvantageImage();
 
-    if($(window).innerWidth() < 992) {
+   /* if($(window).innerWidth() < 992) {
         heightMainWindow();
-    }
+    }*/
     
     if($(window).innerWidth() > 992) {
         widthIntroImage();

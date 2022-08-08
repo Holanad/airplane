@@ -303,6 +303,8 @@
         //height: calc(100 * var(--vh));
         //min-height: calc(100vh - 114px);
         //min-height: -webkit-fill-available;
+        height: 100vh; /* фолбэк для браузеров, которые не поддерживают пользовательские свойства */
+        height: calc(var(--vh, 1vh) * 100);
         
         .container {
             height: 100%;
@@ -947,6 +949,8 @@
     .intro {
         /*min-height: calc(100vh - 85px);
         min-height: -webkit-fill-available;*/
+        height: 100vh; /* фолбэк для браузеров, которые не поддерживают пользовательские свойства */
+        height: calc(var(--vh, 1vh) * 100);
         &__title {
             font-size: 24px;
         }
