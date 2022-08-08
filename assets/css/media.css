@@ -822,6 +822,7 @@
   }
   .about-block__title {
     font-size: 18px;
+    text-align: center;
   }
   .service-image {
     height: 150px;
@@ -965,6 +966,7 @@
   }
   .why-points-one {
     top: 110px;
+    left: -13px;
   }
   .why-points-one img {
     width: 93px;
@@ -1038,6 +1040,9 @@
   .about-image img {
     -o-object-position: left -15px;
        object-position: left -15px;
+  }
+  .service-image {
+    height: 190px;
   }
 }
 /*# sourceMappingURL=media.css.map */

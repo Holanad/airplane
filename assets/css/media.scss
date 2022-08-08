@@ -827,6 +827,7 @@
         &-block {
             &__title {
                 font-size: 18px;
+                text-align: center;
             }
         }
     }
@@ -1012,6 +1013,7 @@
         &-points {
             &-one {
                 top: 110px;
+                left: -13px;
                 img {
                     width: 93px;
                 }
@@ -1093,6 +1095,11 @@
             img {
                 object-position: left -15px;
             }
+        }
+    }
+    .service {
+        &-image {
+            height: 190px;
         }
     }
 }
