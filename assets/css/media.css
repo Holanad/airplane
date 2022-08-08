@@ -1035,14 +1035,10 @@
     font-size: 13px;
   }
   .about-image {
-    height: 190px;
-  }
-  .about-image img {
-    -o-object-position: left -15px;
-       object-position: left -15px;
+    height: 210px;
   }
   .service-image {
-    height: 190px;
+    height: 210px;
   }
 }
 /*# sourceMappingURL=media.css.map */

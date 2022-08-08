@@ -1091,15 +1091,12 @@
     }
     .about {
         &-image {
-            height: 190px;
-            img {
-                object-position: left -15px;
-            }
+            height: 210px;
         }
     }
     .service {
         &-image {
-            height: 190px;
+            height: 210px;
         }
     }
 }
