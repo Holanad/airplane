@@ -909,6 +909,10 @@ input::placeholder, textarea::placeholder {
   left: 0;
 }
 
+.descr-point {
+  display: none;
+}
+
 .descr-wrapper {
   padding: 56px 0 30px 0;
 }

@@ -590,6 +590,9 @@
     right: 0;
     bottom: -205px;
   }
+  .descr {
+    position: relative;
+  }
   .descr-list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -619,6 +622,12 @@
   }
   .descr__text {
     font-size: 18px;
+  }
+  .descr-point {
+    display: block;
+    position: absolute;
+    top: 95px;
+    right: 0;
   }
   .portfolio {
     background: #E3E3E3;
@@ -934,6 +943,12 @@
   .descr__text {
     font-size: 15px;
     margin-top: 15px;
+  }
+  .descr-point {
+    top: 115px;
+  }
+  .descr-point img {
+    width: 90px;
   }
   .portfolio-service-item__text {
     font-size: 15px;

@@ -412,6 +412,9 @@ input::placeholder, textarea::placeholder {
 }
 
 .descr {
+    &-point {
+        display: none;
+    }
     &-wrapper {
         padding: 56px 0 30px 0;
         &-inner {

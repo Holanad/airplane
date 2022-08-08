@@ -592,6 +592,7 @@
         }
     }
     .descr {
+        position: relative;
         &-list {
             flex-direction: column;
         }
@@ -620,6 +621,12 @@
         }
         &__text {
             font-size: 18px;
+        }
+        &-point {
+            display: block;
+            position: absolute;
+            top: 95px;
+            right: 0;
         }
     }
     .portfolio {
@@ -970,6 +977,12 @@
         &__text {
             font-size: 15px;
             margin-top: 15px;
+        }
+        &-point {
+            top: 115px;
+            img {
+                width: 90px;
+            }
         }
     }
     .portfolio {
