@@ -297,8 +297,8 @@
     }
     .intro {
         box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.78);
-        //height: calc(var(--vh, 1vh) * 100);
-        height: calc(100vh - 114px);
+        height: calc(var(--vh, 1vh) * 100);
+        //height: calc(100vh - 114px);
         .container {
             height: 100%;
             /*align-items: center;
