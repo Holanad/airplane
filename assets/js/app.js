@@ -35,7 +35,9 @@ $(window).resize(function() {
         widthDescrImage();
         widthAboutImage();
         widthServiceImage();
-        heightAdvantageBackground();
+        setTimeout(() => {
+            heightAdvantageBackground();
+        }, 300);
     }
     if($(window).innerWidth() > 1240) {
         widthAdvantageBackground();
@@ -51,7 +53,7 @@ if($(window).innerWidth() > 992) {
     widthServiceImage();
     setTimeout(() => {
         heightAdvantageBackground();
-    }, 100);
+    }, 300);
 }
 if($(window).innerWidth() > 1240) {
     widthAdvantageBackground();
