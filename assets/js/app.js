@@ -26,11 +26,15 @@ const swiperStocks = new Swiper(".portfolio-slider", {
             slidesPerView: 4,
             spaceBetween: 25,
         },
+        768: {
+            spaceBetween: 25,
+        },
         320: {
             //slidesPerView: 1,
             spaceBetween: 0,
             slidesPerView: "auto",
             centeredSlides: true,
+            initialSlide : 1,
         },
         
     }

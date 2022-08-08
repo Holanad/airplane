@@ -689,6 +689,7 @@
   }
   .portfolio-service__title {
     font-size: 24px;
+    text-align: center;
   }
   .portfolio-service-list {
     -webkit-box-orient: vertical;
