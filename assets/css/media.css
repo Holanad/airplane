@@ -288,10 +288,14 @@
   .header-burger {
     display: block;
   }
+  html {
+    height: -webkit-fill-available;
+  }
   .intro {
     -webkit-box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.78);
             box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.78);
-    height: calc(100 * var(--vh));
+    min-height: 100vh;
+    height: -webkit-fill-available;
   }
   .intro .container {
     height: 100%;
