@@ -1162,6 +1162,9 @@ input::placeholder, textarea::placeholder {
   padding-bottom: 80px;
 }
 
+.consultation-single .consultation-wrapper {
+  padding-top: 40px;
+}
 .consultation-wrapper {
   padding: 100px 0;
   width: 922px;
@@ -1585,7 +1588,7 @@ input::placeholder, textarea::placeholder {
   width: 564px;
 }
 .service__descr {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 18px;
   color: #9C9C9C;
   width: 564px;
@@ -1623,6 +1626,13 @@ input::placeholder, textarea::placeholder {
 .service-item {
   position: relative;
   z-index: 1;
+  cursor: default;
+}
+.service-item:hover .service-item__title {
+  color: #FF900D;
+}
+.service-item:hover .service-item__title::before {
+  opacity: 1;
 }
 .service-item:not(:last-child) {
   margin-bottom: 18px;
@@ -1632,16 +1642,11 @@ input::placeholder, textarea::placeholder {
   font-size: 24px;
   line-height: 29px;
   margin-bottom: 3px;
-}
-.service-item__descr {
-  font-size: 15px;
-  line-height: 18px;
-}
-.service-item-active .service-item__title {
-  color: #FF900D;
+  transition: all ease-in 0.2s;
   position: relative;
 }
-.service-item-active .service-item__title::before {
+.service-item__title::before {
+  transition: all ease-in 0.2s;
   content: "";
   width: 20px;
   height: 20px;
@@ -1651,6 +1656,11 @@ input::placeholder, textarea::placeholder {
   left: -45px;
   top: 50%;
   transform: translateY(-50%);
+  opacity: 0;
+}
+.service-item__descr {
+  font-size: 15px;
+  line-height: 18px;
 }
 .service-image {
   position: absolute;
