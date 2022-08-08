@@ -4,6 +4,10 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
 window.addEventListener('resize', () => {
     document.documentElement.style.setProperty('--vh', `${vh}px`);
 })*/
+window.addEventListener('resize', () => { 
+    document.querySelector(':root').style
+      .setProperty('--vh', window.innerHeight/100 + 'px');
+  })
 
 // Swiper slider RECALL
 const swiperStocks = new Swiper(".portfolio-slider", {
