@@ -5,6 +5,19 @@ window.addEventListener('resize', () => {
     document.documentElement.style.setProperty('--vh', `${vh}px`);
 })
 
+AOS.init({
+    offset: 200,
+    duration: 1200,
+    delay: 150,
+    wait:0,
+    once: true,
+});
+  
+  
+setTimeout(function() {
+    AOS.refresh();
+}, 1000);
+
 // Swiper slider RECALL
 const swiperStocks = new Swiper(".portfolio-slider", {
     navigation: {

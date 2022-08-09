@@ -24,6 +24,7 @@
     <meta property="og:url" content="">
     <meta property="og:site_name" content="">
     <!-- styles files -->
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="bower_components/fancybox/dist/jquery.fancybox.min.css">
@@ -159,15 +160,15 @@
             <section class="service">
                 <div class="container">
                     <div class="service-wrapper">
-                        <div class="service-block">
-                            <h1 class="service__title title">
+                        <div class="service-block" >
+                            <h1 class="service__title title" data-aos="fade-right">
                                 OUR PROCESS
                             </h1>
-                            <p class="service__descr">
+                            <p class="service__descr" data-aos="fade-right">
                                 When you are deciding on which company to work with, you want to know what to expect up-front. Is this company the right fit? Will they deliver on time and budget? At NOVA OBC™, we believe that being transparent and delivering on expectations is a sure way to deliver an experience that you will want to repeat.
                             </p>
                         </div>
-                        <ul class="service-list">
+                        <ul class="service-list" data-aos="fade-right">
                             <li class="service-item service-item-active">
                                 <h3 class="service-item__title">
                                     Discovery
@@ -220,7 +221,7 @@
                             <div class="why-image">
                                 <img src="assets/img/main/why.jpg" alt="" class="img-cover">
                             </div>
-                            <ul class="why-list">
+                            <ul class="why-list" data-aos="flip-left">
                                 <li class="why-item">
                                     <div class="why-item-head">
                                         <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -324,7 +325,7 @@
                         <div class="portfolio-elem portfolio-elem-two">
                             <img src="assets/img/icon/portfolio-points-two.svg" alt="">
                         </div>
-                        <div class="portfolio-block">
+                        <div class="portfolio-block" data-aos="fade-right">
                             <div class="portfolio-item">
                                 <p class="portfolio-item__text">
                                     <span>Door to Door</span>
@@ -403,11 +404,11 @@
                             </div>
                             <div class="portfolio-slider-pagination"></div>
                         </div>
-                        <div class="portfolio-service">
+                        <div class="portfolio-service" data-aos="fade-right">
                             <p class="portfolio-service__title">
                                 We service the following INDUSTRIES:
                             </p>
-                            <ul class="portfolio-service-list">
+                            <ul class="portfolio-service-list" >
                                 <li class="portfolio-service-item">
                                     <p class="portfolio-service-item__text">
                                         Automotive
@@ -455,7 +456,7 @@
             </section>
             <section class="consultation consultation-single">
                 <div class="container">
-                    <div class="consultation-wrapper">
+                    <div class="consultation-wrapper" data-aos="flip-left">
                         <h2 class="consultation__title title">
                             Quick Quote:
                         </h2>
@@ -662,6 +663,8 @@
         <script src="bower_components/fancybox/dist/jquery.fancybox.min.js"></script>
         <!-- jQuery Validation -->
         <script src="bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+        <!-- aos js -->
+        <script src="bower_components/aos/dist/aos.js"></script>
         <!-- app js -->
         <script src="assets/js/app.js"></script>
     </body>

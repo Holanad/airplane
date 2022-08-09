@@ -250,6 +250,7 @@ input::placeholder, textarea::placeholder {
     position: relative;
     &-wrapper {
         padding: 44px 0 127px 0;
+        z-index: 1;
         position: relative;
     }
     &-block {

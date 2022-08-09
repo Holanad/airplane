@@ -921,7 +921,6 @@
     /*min-height: calc(100vh - 85px);
         min-height: -webkit-fill-available;*/
     height: 100vh;
-    /* фолбэк для браузеров, которые не поддерживают пользовательские свойства */
     height: calc((var(--vh, 1vh) * 100) - 85px);
   }
   .intro__title {
@@ -929,6 +928,7 @@
   }
   .intro-item__text {
     font-size: 15px;
+    padding-left: 25px;
   }
   .intro__slogan {
     font-size: 15px;
