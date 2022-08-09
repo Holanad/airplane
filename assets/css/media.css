@@ -495,6 +495,7 @@
     margin: 0 auto;
     height: 245px;
     width: 100% !important;
+    z-index: 1;
   }
   .about-image img {
     border-radius: 0;
